@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    /* background-color:rgb(0, 0, 0);  */
+    /* height: 3566px; */
+    background: url(Snapchat-2025972507.jpg);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
+
+}
+.leftlinks ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+.leftlinks a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    font-size:18px ;
+}
+.rightlinks{
+    margin: 0px 25px;
+}
+.rightlinks input{
+    background-color:rgba(0, 0, 0, 0.87);;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    color: white;
+}
+.rightlinks button{
+    margin: 0px 12px;
+    background-color:#1f80e0 ;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 5px 12px;
+    font-weight: bold;
+    
+}
+.rightlinks a{
+    text-decoration: none;
+    color: white;
+
+}
+.leftlinks a:hover{
+    color: #1f80e0;
+}
+.leftlinks img:hover{
+    transform: scale(1.2);
+    
+}
+.leftlinks img{
+    transition: 0.5sec ease;
+}
+.u {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(135, 62, 62, 0.5),url(ijn.png));
+}
+.hello{
+    justify-content: center;
+    color: white;
+}
+.form{
+    width: 300px;
+    height:300px;
+    background: linear-gradient(to top ,rgba(223, 220, 220, 0)50%,rgrgba(137, 134, 134, 0));
+    position: absolute;
+    /* top: 150px; */
+    left: 950px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form input{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-bottom: 2px solid white;
+}
